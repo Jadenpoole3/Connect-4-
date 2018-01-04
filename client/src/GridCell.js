@@ -6,7 +6,7 @@ class GridCell extends Component {
     handleClick() {
         console.log(`clicked on column ${this.props.x}`)
 
-        this.props,sendTileDrop(this.props.x);
+        this.props.sendTileDrop(this.props.x);
     }
     render() {
         return (

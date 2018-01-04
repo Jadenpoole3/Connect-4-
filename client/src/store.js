@@ -19,6 +19,7 @@ function reducer(state, action) {
     //any time a player drops a tile Im going to make it so It will go from true to false using the boolean method 
     if(action.type === 'DROP_TILE') {
         console.log('dropping onto col ' + action.payload);
+        const title = state.current; //depending the on who turn it is 
     }
     return state;
 }
