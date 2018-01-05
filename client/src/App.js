@@ -24,11 +24,16 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to Connect</h1>
+          <img src="https://i.pinimg.com/originals/4f/8e/bf/4f8ebf03e3166bffa5c4ffc6064a779e.jpg" className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to Connect 4 </h1>
         </header>
-       {cells}  
+       {cells} 
+
+       
+        
       </div>
+
+      
     );
   }
 }
