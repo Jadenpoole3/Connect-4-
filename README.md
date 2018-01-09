@@ -6,4 +6,4 @@ To win Connect Four you must be the first player to get four of your colored che
 https://trello.com/b/kVhmzKXv/connect-4
 
 # Wireframes 
-![./images/Wireframe.png](./images/Wireframe.png)
+![./client/images/Wireframe.png](./client/images/Wireframe.png)
